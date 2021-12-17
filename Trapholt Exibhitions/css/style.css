@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f2043;
+    width: 700px;
+    height: 40px;
+    margin: 50px 50px 0px 400px;
+    border: 1px solid #0f2043;
+    box-sizing: border-box;
+}
+
+main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f2043;
+}
+
+main h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f2043;
+}
+
+#box_container{
+    display: flex;
+    justify-content: center;
+}
+
+#box_container img{
+   height: 250px; 
+   width: 250px; 
+   object-fit: cover;
+}
+
+#box_1,#box_2,#box_3{ 
+    height: 270px;
+    width: 270px;
+    margin: 10px 50px 10px 0px; 
+    padding: 0px 0px 0px 0px; 
+    box-sizing: border-box; 
+    position: absolute;
+}
+
+#box_1{
+    background-color: #0f2043; 
+    margin: -5px 0px 0px -450px;
+    height: 350px;
+    text-align: center;
+    color:white;
+    
+}
+
+#box_2{
+    background-color: #0f2043;
+    margin: -5px 0px 0px -150px;
+    height: 350px;
+    text-align: center;
+    color:white;
+}
+
+#box_3{
+    background-color: #0f2043;
+    margin: -5px 50px 0px 150px;
+    height: 350px;
+    text-align: center;
+    color:white;
+}
+
+#main2{}
+
+p{
+    color: #0f2043;
+}
+
+h3{
+    color: #0f2043;
+}
+
+#box_container{
+    display: flex;
+    justify-content: center;
+}
+
+#box_container img{
+   height: 270px; 
+   width: 270px; 
+   object-fit: cover;
+}
+
+#box_4,#box_5,#box_6{ 
+    height: 270px;
+    width: 270px;
+    margin: 10px 50px 10px 0px; 
+    padding: 0px 0px 0px 0px;  
+    box-sizing: border-box; 
+    position: absolute;
+}
+
+#box_4{
+    background-color: #0f2043; 
+    margin: 350px 0px 0px -450px;
+    height: 350px;
+    text-align: center;
+    color:white;
+    
+}
+
+#box_5{
+    background-color: #0f2043;
+    margin: 350px 0px 0px -150px;
+    height: 350px;
+    text-align: center;
+    color:white;
+}
+#box_6{
+    background-color: #0f2043;
+    margin: 350px 0px 0px 150px;
+    height: 350px;
+    text-align: center;
+    color:white;
+}
